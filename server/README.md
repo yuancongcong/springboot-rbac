@@ -1,14 +1,9 @@
-### 项目环境
-http://192.168.0.15:8080/gitbucket/root/lingxi-help/wiki/%E5%90%8E%E7%AB%AF%E7%8E%AF%E5%A2%83
+## 后端服务
 
-### 安装项目依赖  
-```
-ideal会自动安装
-```
+``` bash
 
-### 构建
-```
+# serve with at localhost:8080
+
+# build for production with minification
 gradle build
-```
-
 
