@@ -1,0 +1,39 @@
+// base
+@import "base/variables";
+@import "base/color";
+@import "base/base";
+@import "base/mixin";
+@import "base/reset";
+@import "base/font";
+@import "base/animation";
+// style
+@import "scss/index";
+@import "scss/login";
+@import "scss/edit";
+@import "scss/eleme";
+
+
+@import "~element-ui/packages/theme-chalk/src/index";
+//fontawesome
+@import "~font-awesome/scss/variables";
+@import "~font-awesome/scss/mixins";
+@import "~font-awesome/scss/path";
+@import "~font-awesome/scss/core";
+@import "~font-awesome/scss/larger";
+@import "~font-awesome/scss/fixed-width";
+@import "~font-awesome/scss/list";
+@import "~font-awesome/scss/bordered-pulled";
+@import "~font-awesome/scss/animated";
+@import "~font-awesome/scss/rotated-flipped";
+@import "~font-awesome/scss/stacked";
+@import "~font-awesome/scss/icons";
+@import "~font-awesome/scss/screen-reader";
+
+.toolbar {
+  background: #f2f2f2;
+  padding: 10px; //border:1px solid #dfe6ec;
+  margin: 10px 0px;
+  .el-form-item {
+    margin-bottom: 10px;
+  }
+}

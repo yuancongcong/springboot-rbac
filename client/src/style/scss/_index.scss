@@ -1,0 +1,35 @@
+.main-sidebar{
+  position: absolute!important;
+  top: 50px;
+  left: 0;
+  min-height: 100%;
+  width: 230px;
+  z-index: 1000;
+}
+.collapsed{
+  .content-wrapper{
+      margin-left: 64px;
+  }
+}
+
+.content-wrapper, .main-footer {
+  transition: transform .2s ease-in-out,margin .2s ease-in-out;
+  margin-left: 230px;
+  z-index: 820;
+  background-color: white;
+}
+
+.content {
+  position: relative;
+  min-height: 250px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+

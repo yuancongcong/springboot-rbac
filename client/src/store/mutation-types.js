@@ -1,0 +1,8 @@
+export const RECORD_USERINFO = 'RECORD_USERINFO'
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const GET_USERINFO = 'GET_USERINFO'
+export const USER_LOGOUT = 'USER_LOGOUT'
+export const GET_ORG_LIST = 'GET_ORG_LIST'
+export const GET_MENU_LIST = 'GET_MENU_LIST'
+export const RECORD_MENU_LIST = 'RECORD_MENU_LIST'
+export const SET_CUR_MENUS = 'SET_CUR_MENUS'
